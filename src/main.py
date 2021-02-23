@@ -37,7 +37,7 @@ def transfer_style(
     style_image,
     optimizer,
     num_epochs=5,
-    steps_per_epochs=10,
+    steps_per_epochs=20,
 ):
     targets = {
         "style": extractor(style_image)["style"],
